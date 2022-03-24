@@ -1,0 +1,65 @@
+body {
+    font-family: TwitterChirp,
+        -apple-system,
+        "system-ui",
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+h1,
+h2,
+p {
+    margin: 10px 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 1px solid wheat;
+    position: relative;
+}
+
+.main h2 {
+    color: #272C30;
+}
+
+h2 {
+    color: grey;
+}
+
+
+.profile img {
+    border-radius: 50%;
+    width: 25%;
+    position: absolute;
+    top: 30vh;
+    left: 2vw;
+    border: 10px solid white;
+}
+
+.follow {
+    float: right;
+    margin: 15px 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #272C30;
+    color: white;
+    font-weight: 700;
+    font-size: 29px;
+
+}
+
+.details {
+    margin: 180px 0 0 20px;
+}
+
+.tweet {
+    margin: 50px 0 0 20px;
+}
